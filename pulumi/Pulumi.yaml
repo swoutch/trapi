@@ -1,0 +1,6 @@
+name: trapi
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Trapi infrastructure
