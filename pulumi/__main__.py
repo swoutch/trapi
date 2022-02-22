@@ -36,7 +36,7 @@ source_archive_object = storage.BucketObject(
 fxn = cloudfunctions.Function(
     "tell_time_cloud_function",
     entry_point="tell_time",
-    region="us-east1", #TODO: mettre une region gratuite
+    region="us-east1",
     runtime="python37",
     available_memory_mb=128,
     source_archive_bucket=bucket.name,
