@@ -42,5 +42,3 @@ fxn = cloudfunctions.Function(
     source_archive_bucket=bucket.name,
     source_archive_object=source_archive_object.name,
     trigger_http=True)
-
-#TODO: manage google generated buckets: http://www.theappliedarchitect.com/what-the-heck-are-these-cloud-storage-buckets/
